@@ -1,0 +1,75 @@
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  /* padding: 10px; */
+  margin-bottom: 25px;
+}
+
+.header {
+  /* height: 50px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 250px;
+  background-color: #000;
+  flex: 1;
+  color: #fff;
+  border-radius: 10px;
+}
+.headerText {
+  padding: 5px;
+  cursor: pointer;
+}
+.headerTextButton {
+  width: 100px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: aqua;
+  color: red;
+  border-radius: 10px;
+  border-color: red;
+  max-height: 50px;
+}
+.headerTextButtonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 350px;
+  margin-left: 50px;
+}
+.headerImageInput {
+  display: none;
+  opacity: 0;
+}
+.headerTextButton {
+  width: 100px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: aqua;
+  color: red;
+  border-radius: 10px;
+  border: 1px solid red;
+  max-height: 50px;
+  position: relative;
+  overflow: hidden;
+}
+.headerTextLabel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.headerImageInput {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
